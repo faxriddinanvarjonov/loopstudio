@@ -1,0 +1,198 @@
+@font-face {
+  font-display: swap;
+  font-family: "Alata";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/alata-v9-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/josefin-sans-v26-latin-300.woff2") format("woff2");
+}
+* {
+  font-family: Josefin Sans;
+}
+
+ul {
+  list-style: none;
+}
+html {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-top {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1210px;
+  gap: 530px;
+}
+.ul-header-li-childs {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.2s ease;
+}
+.ul-header-li-childs:hover {
+  color: bisque;
+}
+.ul-childs:hover {
+  color: black;
+}
+.ul-header-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.text-withborder {
+  font-family: Josefin Sans;
+  font-size: 72px;
+  font-weight: 300;
+  line-height: 70px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 570px;
+  height: 200px;
+  border: 2px solid #ffffff;
+  padding: 40px;
+}
+header {
+  padding: 60px 165px 146px;
+  background-repeat: no-repeat;
+  background-size: 1540px 650px;
+  background-image: url(../imgs/Bitmap.svg);
+  color: white;
+}
+.main {
+  display: flex;
+  margin-top: 160px;
+  padding-left: 165px;
+  max-width: 1211px;
+  width: 100%;
+}
+.main-h1 {
+  font-family: "Josefin Sans";
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.main-p {
+  font-family: Alata;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.img-hero {
+  width: 731px;
+  height: 500px;
+  top: 810px;
+  left: 164px;
+}
+.text-on-main {
+  width: 445px;
+  height: 221px;
+  padding-left: 100px;
+  margin-top: 200px;
+}
+.main-end {
+  padding-left: 165px;
+  margin-top: 184px;
+  display: flex;
+  align-items: center;
+  width: 1144px;
+  justify-content: space-between;
+}
+.main-end-h1 {
+  font-family: Josefin Sans;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  width: 400px;
+}
+.main-end-link {
+  font-family: Alata;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 5px;
+  text-align: left;
+  text-decoration: none;
+  padding: 20px 30px;
+  border: 1px solid #000000;
+  color: black;
+  margin-top: 25px;
+  border-radius: 5%;
+  background-color: white;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+.main-end-link:hover {
+  color: white;
+  background-color: black;
+}
+.img-footers {
+  width: 1144px;
+  height: 970px;
+  margin-top: 35px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer-imgs-pad {
+  padding: 15px;
+}
+.footer {
+  width: 1430px;
+  height: 170px;
+  background-color: #000000;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+.footer-top {
+  width: 1110px;
+  margin: 44px 165px 24px 165px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-end {
+  color: #ffffff;
+}
+.footer-end-ul {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin: 24px 400px 43px 165px;
+}
+.footer-end-p {
+  position: relative;
+  color: #ffffff;
+  width: 272px;
+  height: 25px;
+  left: 567px;
+  opacity: 50%;
+}
+.footer-end-p:hover {
+  opacity: 70%;
+}
+.footer-endhover {
+  color: #ffffff;
+  text-decoration: none;
+  transition: opacity 0.4s ease, color 0.4s ease;
+}
+.footer-endhover:hover {
+  opacity: 50%;
+  color: antiquewhite;
+}
